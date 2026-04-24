@@ -33,7 +33,8 @@ const ARTIFACTS: Artifact[] = [
     type: "Symbolic Object · i of ii",
     title: "The Man in the Sun",
     model: { kind: "framed-image", src: "/models/man-in-sun.png" },
-    medium: "Ochre wall-painting fragment, depicting a figure beside the setting sun",
+    medium:
+      "Ochre wall-painting fragment, depicting a figure beside the setting sun",
     desc: `The stepmother points to the setting sun and tells the child, <span class="quote">"You see that man near the sun? It is your father."</span> It is a lie meant to kill her — the stepmother thinks no child can catch the sun. But when Aluel reaches the river, the Sun genuinely is there, and he really does pull her from the burning water. The lie becomes an ironically beautiful prophecy. The artifact freezes the moment deception and deliverance became the same event.`,
     interp: `This is the exhibit's first statement about what "rescue" means in the tale. The stepmother's cruelty sets the plot into motion, and the Sun uses that cruelty without excusing it. Providence does not annul wickedness here; it overrules it. The theological weight is closer to Genesis 50:20 than to any sentimental rescue narrative, and the Dinka tale preserves the tension Joseph's story preserves: the harm was real, the deliverance is real, and the two do not cancel. But the one above the wickedness is always in the least of expected places.`,
   },
@@ -41,7 +42,12 @@ const ARTIFACTS: Artifact[] = [
     num: "ACC. 02 · ii of V",
     type: "Symbolic Object · ii of ii",
     title: "The Gourd of Watered Milk",
-    model: { kind: "glb", src: "/models/leather_water_pot_wgxobbm_raw.glb", scale: 1.0, yOffset: 0 },
+    model: {
+      kind: "glb",
+      src: "/models/leather_water_pot_wgxobbm_raw.glb",
+      scale: 1.0,
+      yOffset: 0,
+    },
     medium: "Dinka leather pot gourd",
     desc: `The stepmother pours water into Aluel's milk gourd before she pours the milk, so the milk floats thin on top while the child drinks water disguised as food. When Aluel discovers the trick, she never accuses, she continues to respect the stepmother, and she spills the gourd in secret. When her father asks if she is hungry, she swears, <span class="quote">"May I die, by God, Father, I have eaten."</span> The gourd is the quietest weapon in the story: a vessel of sustenance made into a vessel of deception, carried every day by a child who would rather lie and face eternal consequences than grieve her father.`,
     interp: `Cruelty in this tale is not spectacular. It is domestic, stratified, and hidden inside objects of care. Aluel's decision to conceal her suffering is itself part of the story's moral narrative: protection works in both directions, and sometimes the fatherless must protect the father. This makes Chol's later breakdown more severe, not less, because his grief was revealed in a gourd of lies.`,
@@ -50,7 +56,12 @@ const ARTIFACTS: Artifact[] = [
     num: "ACC. 03 · iii of V",
     type: "Document Artifact",
     title: "The Tether-Peg of the Brown Cow-Calf",
-    model: { kind: "glb", src: "/models/rusty_stake_tkqmdbnhw_raw.glb", scale: 1.0, yOffset: 0 },
+    model: {
+      kind: "glb",
+      src: "/models/rusty_stake_tkqmdbnhw_raw.glb",
+      scale: 1.0,
+      yOffset: 0,
+    },
     medium: "A hardwood tether stake, annotated with the Sun's verbal contract",
     desc: `Before the Sun returns Aluel to her father, he names his price: <span class="quote">"take a brown cow-calf and tether her to a stake very early in the morning. I will pick up the cow-calf on my way to the West."</span> By saving Aluel, the Sun establishes a sort of kinship with her family, but that kinship entitles him to a share of her bride-wealth. If the debt goes unpaid, a curse would fall on Aluel even if the Sun did not will it. The stake is small. The stakes are colossal.`,
     interp: `This artifact is the exhibit's most direct claim that deliverance is not free. The Dinka world does not separate rescue from relationship, or relationship from obligation — help received creates a tether that cannot be ignored. The parallel in Christian tradition is the <em>goel</em>, the kinsman-redeemer, whose rescue creates a permanent claim. But the tale is not softer than scripture: it insists that even a benevolent debt, if left unpaid, becomes a curse that acts on its own, regardless of the giver's will. The peg makes the invisible contract physical.`,
@@ -67,7 +78,8 @@ const ARTIFACTS: Artifact[] = [
       xOffset: 0.0,
       rotationOffset: { x: 0, y: 0, z: 1.5708 },
     },
-    medium: "An iron spearhead with a hardwood shaft, notched at the end of the grip for each day of the fight",
+    medium:
+      "An iron spearhead with a hardwood shaft, notched at the end of the grip for each day of the fight",
     desc: `In a vision Ring comes to the revelation of Aluel's return. When he brings her home, his own father demands her for himself and forces Ring and the father to fight. They throw spears at each other for three very long, grueling days. Ring's twin brothers call out to the two; one begging his father to miss, the other begging Ring to miss. Until the third day, when one of the brothers loses patience and shouts, <span class="quote">"Ring, hit our father!"</span> And he does. And through his heart, comes the notched spear.`,
     interp: `Ring is the character the tale most refuses to simplify. He is "very holy." He saw his wife in a vision before he ever even met her. And to keep her, he skins his own mother (yes, literally kills and destroys his mother), and then kills his own father with the spear. The story does not condemn him, but neither does it celebrate him. It merely records him. The spear embodies the exhibit's thesis in its most difficult form: when deliverance passes through a human hand, that hand is marked. Ring's holiness and his violence occupy the same body, and the tale does not resolve them.`,
   },
@@ -75,7 +87,12 @@ const ARTIFACTS: Artifact[] = [
     num: "ACC. 05 · v of V",
     type: "Cultural Context Artifact",
     title: "The Pale Shield",
-    model: { kind: "glb", src: "/models/parametric_bulls_head_trophy.glb", scale: 1.0, yOffset: 0 },
+    model: {
+      kind: "glb",
+      src: "/models/parametric_bulls_head_trophy.glb",
+      scale: 1.0,
+      yOffset: 0,
+    },
     medium: "Bull-head and hide shield",
     desc: `On the eve of the duel, Ring's father kills his own bull and makes a shield from its hide. He tells Ring that Ring must find his own shield — but Ring has no independent cattle. The companion shield is pale, abstract, and unlike its partner. The tale's own words are what the visitor reads here; the image does not re-enact them. <span class="quote">"The one who will kill the other will take the girl for his wife."</span>`,
     interp: `This is the cultural context the tale demands but does not explain. Dinka marriage is transacted in cattle; cattle are controlled by the head of the household; a son with no cattle has no wife. The bull-hide shield is the normal order of things — wealth used to claim what wealth entitles. The pale shield is the rupture: a household's economy collapsing under the weight of what one man desired and another was forced to supply. Aluel "constantly cries" from that day forward. The artifact does not ask you to forgive this. It asks you to see it.`,
@@ -90,7 +107,12 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xb8c4d4);
 scene.fog = new THREE.FogExp2(0xc4cfdc, 0.032);
 
-const camera = new THREE.PerspectiveCamera(52, window.innerWidth / window.innerHeight, 0.1, 200);
+const camera = new THREE.PerspectiveCamera(
+  52,
+  window.innerWidth / window.innerHeight,
+  0.1,
+  200,
+);
 
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -130,7 +152,11 @@ scene.add(hemi);
 // =====================================================================
 // FLOOR
 // =====================================================================
-const floorMat = new THREE.MeshStandardMaterial({ color: 0xdcd4be, roughness: 0.5, metalness: 0.02 });
+const floorMat = new THREE.MeshStandardMaterial({
+  color: 0xdcd4be,
+  roughness: 0.5,
+  metalness: 0.02,
+});
 const floor = new THREE.Mesh(new THREE.PlaneGeometry(120, 120), floorMat);
 floor.rotation.x = -Math.PI / 2;
 floor.receiveShadow = true;
@@ -143,35 +169,78 @@ scene.add(grid);
 
 function addFloorCrack(points: THREE.Vector3[]): void {
   const geom = new THREE.BufferGeometry().setFromPoints(points);
-  const mat = new THREE.LineBasicMaterial({ color: 0x8a7a5a, transparent: true, opacity: 0.28 });
+  const mat = new THREE.LineBasicMaterial({
+    color: 0x8a7a5a,
+    transparent: true,
+    opacity: 0.28,
+  });
   const line = new THREE.Line(geom, mat);
   line.position.y = 0.02;
   scene.add(line);
 }
-addFloorCrack([new THREE.Vector3(-8, 0, 6), new THREE.Vector3(-5, 0, 3), new THREE.Vector3(-3, 0, 1), new THREE.Vector3(1, 0, -1), new THREE.Vector3(4, 0, -4), new THREE.Vector3(7, 0, -8)]);
-addFloorCrack([new THREE.Vector3(-12, 0, -4), new THREE.Vector3(-9, 0, -6), new THREE.Vector3(-6, 0, -9), new THREE.Vector3(-2, 0, -12)]);
-addFloorCrack([new THREE.Vector3(10, 0, 4), new THREE.Vector3(8, 0, 2), new THREE.Vector3(6, 0, 0), new THREE.Vector3(5, 0, -3)]);
+addFloorCrack([
+  new THREE.Vector3(-8, 0, 6),
+  new THREE.Vector3(-5, 0, 3),
+  new THREE.Vector3(-3, 0, 1),
+  new THREE.Vector3(1, 0, -1),
+  new THREE.Vector3(4, 0, -4),
+  new THREE.Vector3(7, 0, -8),
+]);
+addFloorCrack([
+  new THREE.Vector3(-12, 0, -4),
+  new THREE.Vector3(-9, 0, -6),
+  new THREE.Vector3(-6, 0, -9),
+  new THREE.Vector3(-2, 0, -12),
+]);
+addFloorCrack([
+  new THREE.Vector3(10, 0, 4),
+  new THREE.Vector3(8, 0, 2),
+  new THREE.Vector3(6, 0, 0),
+  new THREE.Vector3(5, 0, -3),
+]);
 
 // =====================================================================
 // RUINS
 // =====================================================================
-const stoneMat = new THREE.MeshStandardMaterial({ color: 0xd8d0bc, roughness: 0.95, metalness: 0.02 });
-const stoneMatDim = new THREE.MeshStandardMaterial({ color: 0xc8c0a8, roughness: 0.95, metalness: 0.02 });
+const stoneMat = new THREE.MeshStandardMaterial({
+  color: 0xd8d0bc,
+  roughness: 0.95,
+  metalness: 0.02,
+});
+const stoneMatDim = new THREE.MeshStandardMaterial({
+  color: 0xc8c0a8,
+  roughness: 0.95,
+  metalness: 0.02,
+});
 
-function makeBrokenColumn(x: number, z: number, height: number, radius = 0.38): void {
-  const base = new THREE.Mesh(new THREE.BoxGeometry(radius * 3, 0.3, radius * 3), stoneMat);
+function makeBrokenColumn(
+  x: number,
+  z: number,
+  height: number,
+  radius = 0.38,
+): void {
+  const base = new THREE.Mesh(
+    new THREE.BoxGeometry(radius * 3, 0.3, radius * 3),
+    stoneMat,
+  );
   base.position.set(x, 0.15, z);
   base.castShadow = true;
   base.receiveShadow = true;
   scene.add(base);
 
-  const col = new THREE.Mesh(new THREE.CylinderGeometry(radius * 0.95, radius * 1.05, height, 20), stoneMat);
+  const col = new THREE.Mesh(
+    new THREE.CylinderGeometry(radius * 0.95, radius * 1.05, height, 20),
+    stoneMat,
+  );
   col.position.set(x, 0.3 + height / 2, z);
   col.castShadow = true;
   col.receiveShadow = true;
   scene.add(col);
 
-  const topFrag = new THREE.Mesh(new THREE.BoxGeometry(radius * 2.2, 0.35, radius * 1.7), stoneMat);
+  const topFrag = new THREE.Mesh(
+    new THREE.BoxGeometry(radius * 2.2, 0.35, radius * 1.7),
+    stoneMat,
+  );
   const jx = (Math.random() - 0.5) * radius * 0.6;
   const jz = (Math.random() - 0.5) * radius * 0.6;
   topFrag.position.set(x + jx, 0.3 + height + 0.1, z + jz);
@@ -182,7 +251,10 @@ function makeBrokenColumn(x: number, z: number, height: number, radius = 0.38): 
   scene.add(topFrag);
 
   if (Math.random() > 0.4) {
-    const bit = new THREE.Mesh(new THREE.BoxGeometry(radius * 1.4, 0.2, radius * 1.1), stoneMatDim);
+    const bit = new THREE.Mesh(
+      new THREE.BoxGeometry(radius * 1.4, 0.2, radius * 1.1),
+      stoneMatDim,
+    );
     bit.position.set(x + jx * 1.7, 0.3 + height + 0.35, z + jz * 1.7);
     bit.rotation.y = Math.random() * Math.PI;
     bit.rotation.x = (Math.random() - 0.5) * 0.5;
@@ -192,14 +264,28 @@ function makeBrokenColumn(x: number, z: number, height: number, radius = 0.38): 
 }
 
 const columnData = [
-  { x: -15, z: 2, h: 4.6 }, { x: -14, z: -4, h: 3.4 }, { x: -12, z: -10, h: 5.2 },
-  { x: -7, z: -15, h: 3.8 }, { x: 0, z: -17, h: 6.0 }, { x: 7, z: -15, h: 3.6 },
-  { x: 12, z: -10, h: 5.4 }, { x: 14, z: -4, h: 3.2 }, { x: 15, z: 2, h: 4.8 },
-  { x: -11, z: 8, h: 2.2 }, { x: 11, z: 8, h: 2.6 },
+  { x: -15, z: 2, h: 4.6 },
+  { x: -14, z: -4, h: 3.4 },
+  { x: -12, z: -10, h: 5.2 },
+  { x: -7, z: -15, h: 3.8 },
+  { x: 0, z: -17, h: 6.0 },
+  { x: 7, z: -15, h: 3.6 },
+  { x: 12, z: -10, h: 5.4 },
+  { x: 14, z: -4, h: 3.2 },
+  { x: 15, z: 2, h: 4.8 },
+  { x: -11, z: 8, h: 2.2 },
+  { x: 11, z: 8, h: 2.6 },
 ];
 columnData.forEach((c) => makeBrokenColumn(c.x, c.z, c.h));
 
-function makeStoneBlock(x: number, z: number, w: number, h: number, d: number, rotY: number): void {
+function makeStoneBlock(
+  x: number,
+  z: number,
+  w: number,
+  h: number,
+  d: number,
+  rotY: number,
+): void {
   const mat = Math.random() > 0.5 ? stoneMat : stoneMatDim;
   const block = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat);
   block.position.set(x, h / 2, z);
@@ -324,7 +410,10 @@ for (let i = 0; i < DUST_COUNT; i++) {
   dustPhases[i] = Math.random() * Math.PI * 2;
 }
 
-dustGeometry.setAttribute("position", new THREE.BufferAttribute(dustPositions, 3));
+dustGeometry.setAttribute(
+  "position",
+  new THREE.BufferAttribute(dustPositions, 3),
+);
 
 const dustMaterial = new THREE.PointsMaterial({
   color: 0xfff0d0,
@@ -345,7 +434,12 @@ scene.add(dustParticles);
 const gltfLoader = new GLTFLoader();
 const texLoader = new THREE.TextureLoader();
 
-function swapPlaceholder(idx: number, group: THREE.Group, placeholder: THREE.Object3D, newObject: THREE.Object3D): void {
+function swapPlaceholder(
+  idx: number,
+  group: THREE.Group,
+  placeholder: THREE.Object3D,
+  newObject: THREE.Object3D,
+): void {
   const slot = artifacts.indexOf(placeholder);
   group.remove(placeholder);
   newObject.userData.idx = idx;
@@ -382,7 +476,13 @@ function collectMaterials(obj: THREE.Object3D): THREE.Material[] {
   return mats;
 }
 
-function loadGLBArtifact(idx: number, group: THREE.Group, placeholder: THREE.Object3D, cfg: ModelConfig, facingY: number): void {
+function loadGLBArtifact(
+  idx: number,
+  group: THREE.Group,
+  placeholder: THREE.Object3D,
+  cfg: ModelConfig,
+  facingY: number,
+): void {
   gltfLoader.load(
     cfg.src,
     (gltf) => {
@@ -429,7 +529,7 @@ function loadGLBArtifact(idx: number, group: THREE.Group, placeholder: THREE.Obj
       const bubbleSize = 1.1;
       const bubble = new THREE.Mesh(
         new THREE.BoxGeometry(bubbleSize, bubbleSize * 1.4, bubbleSize),
-        new THREE.MeshBasicMaterial({ visible: false })
+        new THREE.MeshBasicMaterial({ visible: false }),
       );
       bubble.position.y = 0.5;
       bubble.userData.isClickBubble = true;
@@ -438,11 +538,17 @@ function loadGLBArtifact(idx: number, group: THREE.Group, placeholder: THREE.Obj
       swapPlaceholder(idx, group, placeholder, wrapper);
     },
     undefined,
-    (err) => console.error(`Failed to load ${cfg.src}:`, err)
+    (err) => console.error(`Failed to load ${cfg.src}:`, err),
   );
 }
 
-function loadFramedImageArtifact(idx: number, group: THREE.Group, placeholder: THREE.Object3D, cfg: ModelConfig, facingY: number): void {
+function loadFramedImageArtifact(
+  idx: number,
+  group: THREE.Group,
+  placeholder: THREE.Object3D,
+  cfg: ModelConfig,
+  facingY: number,
+): void {
   texLoader.load(
     cfg.src,
     (texture) => {
@@ -455,14 +561,31 @@ function loadFramedImageArtifact(idx: number, group: THREE.Group, placeholder: T
 
       const frameGroup = new THREE.Group();
 
-      const frameMat = new THREE.MeshStandardMaterial({ color: 0x3a2a1a, roughness: 0.6, metalness: 0.05 });
-      const frame = new THREE.Mesh(new THREE.BoxGeometry(frameW + matBorder * 2, frameH + matBorder * 2, frameDepth), frameMat);
+      const frameMat = new THREE.MeshStandardMaterial({
+        color: 0x3a2a1a,
+        roughness: 0.6,
+        metalness: 0.05,
+      });
+      const frame = new THREE.Mesh(
+        new THREE.BoxGeometry(
+          frameW + matBorder * 2,
+          frameH + matBorder * 2,
+          frameDepth,
+        ),
+        frameMat,
+      );
       frame.castShadow = true;
       frame.receiveShadow = true;
       frameGroup.add(frame);
 
-      const matMat = new THREE.MeshStandardMaterial({ color: 0xf2e8d0, roughness: 0.8 });
-      const matPlane = new THREE.Mesh(new THREE.PlaneGeometry(frameW, frameH), matMat);
+      const matMat = new THREE.MeshStandardMaterial({
+        color: 0xf2e8d0,
+        roughness: 0.8,
+      });
+      const matPlane = new THREE.Mesh(
+        new THREE.PlaneGeometry(frameW, frameH),
+        matMat,
+      );
       matPlane.position.z = frameDepth / 2 + 0.001;
       frameGroup.add(matPlane);
 
@@ -473,12 +596,21 @@ function loadFramedImageArtifact(idx: number, group: THREE.Group, placeholder: T
         emissiveIntensity: 0.05,
         emissiveMap: texture,
       });
-      const painting = new THREE.Mesh(new THREE.PlaneGeometry(frameW * 0.92, frameH * 0.92), paintMat);
+      const painting = new THREE.Mesh(
+        new THREE.PlaneGeometry(frameW * 0.92, frameH * 0.92),
+        paintMat,
+      );
       painting.position.z = frameDepth / 2 + 0.002;
       frameGroup.add(painting);
 
-      const easelMat = new THREE.MeshStandardMaterial({ color: 0x2a1a0e, roughness: 0.7 });
-      const easel = new THREE.Mesh(new THREE.BoxGeometry(0.04, frameH + matBorder, 0.04), easelMat);
+      const easelMat = new THREE.MeshStandardMaterial({
+        color: 0x2a1a0e,
+        roughness: 0.7,
+      });
+      const easel = new THREE.Mesh(
+        new THREE.BoxGeometry(0.04, frameH + matBorder, 0.04),
+        easelMat,
+      );
       easel.position.z = -frameDepth / 2 - 0.02;
       easel.rotation.x = 0.15;
       easel.castShadow = true;
@@ -493,7 +625,7 @@ function loadFramedImageArtifact(idx: number, group: THREE.Group, placeholder: T
 
       const bubble = new THREE.Mesh(
         new THREE.BoxGeometry(frameW + 0.4, frameH + 0.4, 0.5),
-        new THREE.MeshBasicMaterial({ visible: false })
+        new THREE.MeshBasicMaterial({ visible: false }),
       );
       bubble.userData.isClickBubble = true;
       frameGroup.add(bubble);
@@ -501,7 +633,7 @@ function loadFramedImageArtifact(idx: number, group: THREE.Group, placeholder: T
       swapPlaceholder(idx, group, placeholder, frameGroup);
     },
     undefined,
-    (err) => console.error(`Failed to load ${cfg.src}:`, err)
+    (err) => console.error(`Failed to load ${cfg.src}:`, err),
   );
 }
 
@@ -515,8 +647,16 @@ const arcRadius = 9.5;
 const arcSpan = Math.PI * 0.85;
 const arcStart = Math.PI / 2 - arcSpan / 2;
 
-const pedMat = new THREE.MeshStandardMaterial({ color: 0xfaf6ee, roughness: 0.45, metalness: 0.02 });
-const pedTopMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.3, metalness: 0.04 });
+const pedMat = new THREE.MeshStandardMaterial({
+  color: 0xfaf6ee,
+  roughness: 0.45,
+  metalness: 0.02,
+});
+const pedTopMat = new THREE.MeshStandardMaterial({
+  color: 0xffffff,
+  roughness: 0.3,
+  metalness: 0.04,
+});
 const artifactBaseMat = new THREE.MeshStandardMaterial({
   color: 0xfbfaf7,
   roughness: 0.45,
@@ -547,7 +687,10 @@ for (let i = 0; i < 5; i++) {
   group.add(top);
 
   const artSize = 0.92;
-  const placeholder = new THREE.Mesh(new THREE.BoxGeometry(artSize, artSize, artSize), artifactBaseMat.clone());
+  const placeholder = new THREE.Mesh(
+    new THREE.BoxGeometry(artSize, artSize, artSize),
+    artifactBaseMat.clone(),
+  );
   placeholder.position.y = 3.1 + artSize / 2;
   placeholder.castShadow = true;
   placeholder.receiveShadow = true;
@@ -581,7 +724,10 @@ for (let i = 0; i < 5; i++) {
   pctx.fillText(romans[i], 128, 140);
   const plaqueTex = new THREE.CanvasTexture(plaqueCanvas);
   plaqueTex.anisotropy = 8;
-  const plaqueMat = new THREE.MeshStandardMaterial({ map: plaqueTex, roughness: 0.8 });
+  const plaqueMat = new THREE.MeshStandardMaterial({
+    map: plaqueTex,
+    roughness: 0.8,
+  });
   const plaque = new THREE.Mesh(new THREE.PlaneGeometry(0.42, 0.42), plaqueMat);
   plaque.position.set(0, 2.25, 0.71);
   group.add(plaque);
@@ -639,7 +785,11 @@ function zoomToArtifact(idx: number): void {
   const ped = pedestals[idx];
   const p = ped.position;
 
-  const toViewer = new THREE.Vector3(GALLERY_CAM_POS.x - p.x, 0, GALLERY_CAM_POS.z - p.z).normalize();
+  const toViewer = new THREE.Vector3(
+    GALLERY_CAM_POS.x - p.x,
+    0,
+    GALLERY_CAM_POS.z - p.z,
+  ).normalize();
   const dist = 3.0;
   camTargetPos.set(p.x + toViewer.x * dist, 3.6, p.z + toViewer.z * dist);
   camTargetLook.set(p.x, 3.5, p.z);
@@ -657,11 +807,15 @@ function zoomToArtifact(idx: number): void {
   setTimeout(() => {
     panelEl.classList.add("open");
     panelEl.scrollTop = 0;
-    (document.getElementById("back-btn") as HTMLElement).classList.add("visible");
+    (document.getElementById("back-btn") as HTMLElement).classList.add(
+      "visible",
+    );
     state = "zoomed";
   }, 900);
 
-  (document.getElementById("gallery-ui") as HTMLElement).classList.add("hidden");
+  (document.getElementById("gallery-ui") as HTMLElement).classList.add(
+    "hidden",
+  );
   document.querySelectorAll(".nav-dot").forEach((d, i) => {
     d.classList.toggle("active", i === idx);
   });
@@ -673,10 +827,18 @@ function returnToGallery(): void {
   camTargetPos.copy(GALLERY_CAM_POS);
   camTargetLook.copy(GALLERY_CAM_LOOK);
   (document.getElementById("panel") as HTMLElement).classList.remove("open");
-  (document.getElementById("back-btn") as HTMLElement).classList.remove("visible");
-  (document.getElementById("gallery-ui") as HTMLElement).classList.remove("hidden");
-  document.querySelectorAll(".nav-dot").forEach((d) => d.classList.remove("active"));
-  setTimeout(() => { state = "gallery"; }, 900);
+  (document.getElementById("back-btn") as HTMLElement).classList.remove(
+    "visible",
+  );
+  (document.getElementById("gallery-ui") as HTMLElement).classList.remove(
+    "hidden",
+  );
+  document
+    .querySelectorAll(".nav-dot")
+    .forEach((d) => d.classList.remove("active"));
+  setTimeout(() => {
+    state = "gallery";
+  }, 900);
 }
 
 // =====================================================================
@@ -737,51 +899,82 @@ document.querySelectorAll(".nav-dot").forEach((btn) => {
     if (state === "gallery") {
       zoomToArtifact(idx);
     } else if (state === "zoomed") {
-      (document.getElementById("panel") as HTMLElement).classList.remove("open");
+      (document.getElementById("panel") as HTMLElement).classList.remove(
+        "open",
+      );
       setTimeout(() => zoomToArtifact(idx), 320);
     }
   });
 });
 
-(document.getElementById("back-btn") as HTMLElement).addEventListener("click", returnToGallery);
-(document.getElementById("close-panel") as HTMLElement).addEventListener("click", returnToGallery);
+(document.getElementById("back-btn") as HTMLElement).addEventListener(
+  "click",
+  returnToGallery,
+);
+(document.getElementById("close-panel") as HTMLElement).addEventListener(
+  "click",
+  returnToGallery,
+);
 
-(document.getElementById("enter-btn") as HTMLElement).addEventListener("click", () => {
-  (document.getElementById("intro") as HTMLElement).classList.add("gone");
-  setTimeout(() => {
-    wakingUp = true;
-    wakeStartTime = performance.now();
-    camTargetPos.copy(GALLERY_CAM_POS);
-    camTargetLook.copy(GALLERY_CAM_LOOK);
-    state = "waking";
-  }, 200);
-});
+(document.getElementById("enter-btn") as HTMLElement).addEventListener(
+  "click",
+  () => {
+    (document.getElementById("intro") as HTMLElement).classList.add("gone");
+    setTimeout(() => {
+      wakingUp = true;
+      wakeStartTime = performance.now();
+      camTargetPos.copy(GALLERY_CAM_POS);
+      camTargetLook.copy(GALLERY_CAM_LOOK);
+      state = "waking";
+    }, 200);
+  },
+);
 
-(document.getElementById("cite-btn") as HTMLElement).addEventListener("click", () => {
-  (document.getElementById("cite-modal") as HTMLElement).classList.add("open");
-});
-(document.getElementById("curator-btn") as HTMLElement).addEventListener("click", () => {
-  (document.getElementById("curator-modal") as HTMLElement).classList.add("open");
-});
+(document.getElementById("cite-btn") as HTMLElement).addEventListener(
+  "click",
+  () => {
+    (document.getElementById("cite-modal") as HTMLElement).classList.add(
+      "open",
+    );
+  },
+);
+(document.getElementById("curator-btn") as HTMLElement).addEventListener(
+  "click",
+  () => {
+    (document.getElementById("curator-modal") as HTMLElement).classList.add(
+      "open",
+    );
+  },
+);
 document.querySelectorAll(".modal").forEach((m) => {
-  m.querySelector(".close")!.addEventListener("click", () => m.classList.remove("open"));
-  m.addEventListener("click", (e) => { if (e.target === m) m.classList.remove("open"); });
+  m.querySelector(".close")!.addEventListener("click", () =>
+    m.classList.remove("open"),
+  );
+  m.addEventListener("click", (e) => {
+    if (e.target === m) m.classList.remove("open");
+  });
 });
 
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
-    document.querySelectorAll(".modal.open").forEach((m) => m.classList.remove("open"));
+    document
+      .querySelectorAll(".modal.open")
+      .forEach((m) => m.classList.remove("open"));
     if (state === "zoomed") returnToGallery();
   }
   if (state === "zoomed") {
     if (e.key === "ArrowRight" && currentArtifact < 4) {
       const next = currentArtifact + 1;
-      (document.getElementById("panel") as HTMLElement).classList.remove("open");
+      (document.getElementById("panel") as HTMLElement).classList.remove(
+        "open",
+      );
       setTimeout(() => zoomToArtifact(next), 320);
     }
     if (e.key === "ArrowLeft" && currentArtifact > 0) {
       const prev = currentArtifact - 1;
-      (document.getElementById("panel") as HTMLElement).classList.remove("open");
+      (document.getElementById("panel") as HTMLElement).classList.remove(
+        "open",
+      );
       setTimeout(() => zoomToArtifact(prev), 320);
     }
   }
@@ -835,25 +1028,42 @@ function animate(): void {
 
     if (art.userData.materials) {
       (art.userData.materials as THREE.MeshStandardMaterial[]).forEach((m) => {
-        m.emissiveIntensity = THREE.MathUtils.lerp(m.emissiveIntensity, targetEmissive, 0.08);
+        m.emissiveIntensity = THREE.MathUtils.lerp(
+          m.emissiveIntensity,
+          targetEmissive,
+          0.08,
+        );
       });
     } else if ((art as THREE.Mesh).material) {
       const mat = (art as THREE.Mesh).material as THREE.MeshStandardMaterial;
-      mat.emissiveIntensity = THREE.MathUtils.lerp(mat.emissiveIntensity, targetEmissive, 0.08);
+      mat.emissiveIntensity = THREE.MathUtils.lerp(
+        mat.emissiveIntensity,
+        targetEmissive,
+        0.08,
+      );
     }
 
     art.position.y = THREE.MathUtils.lerp(art.position.y, targetY, 0.12);
   });
 
-  const posAttr = dustParticles.geometry.attributes.position as THREE.BufferAttribute;
+  const posAttr = dustParticles.geometry.attributes
+    .position as THREE.BufferAttribute;
   for (let i = 0; i < DUST_COUNT; i++) {
-    posAttr.array[i * 3 + 0] += dustVelocities[i * 3 + 0] + Math.sin(time * 0.3 + dustPhases[i]) * 0.0008;
-    posAttr.array[i * 3 + 1] += dustVelocities[i * 3 + 1] + Math.cos(time * 0.25 + dustPhases[i]) * 0.0006;
-    posAttr.array[i * 3 + 2] += dustVelocities[i * 3 + 2] + Math.sin(time * 0.35 + dustPhases[i] + 1.5) * 0.0008;
+    posAttr.array[i * 3 + 0] +=
+      dustVelocities[i * 3 + 0] + Math.sin(time * 0.3 + dustPhases[i]) * 0.0008;
+    posAttr.array[i * 3 + 1] +=
+      dustVelocities[i * 3 + 1] +
+      Math.cos(time * 0.25 + dustPhases[i]) * 0.0006;
+    posAttr.array[i * 3 + 2] +=
+      dustVelocities[i * 3 + 2] +
+      Math.sin(time * 0.35 + dustPhases[i] + 1.5) * 0.0008;
 
-    if (posAttr.array[i * 3 + 0] > 16 || posAttr.array[i * 3 + 0] < -16) dustVelocities[i * 3 + 0] *= -1;
-    if (posAttr.array[i * 3 + 1] > 11 || posAttr.array[i * 3 + 1] < 0.5) dustVelocities[i * 3 + 1] *= -1;
-    if (posAttr.array[i * 3 + 2] > 8 || posAttr.array[i * 3 + 2] < -16) dustVelocities[i * 3 + 2] *= -1;
+    if (posAttr.array[i * 3 + 0] > 16 || posAttr.array[i * 3 + 0] < -16)
+      dustVelocities[i * 3 + 0] *= -1;
+    if (posAttr.array[i * 3 + 1] > 11 || posAttr.array[i * 3 + 1] < 0.5)
+      dustVelocities[i * 3 + 1] *= -1;
+    if (posAttr.array[i * 3 + 2] > 8 || posAttr.array[i * 3 + 2] < -16)
+      dustVelocities[i * 3 + 2] *= -1;
   }
   posAttr.needsUpdate = true;
 
