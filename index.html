@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Rescue Costs — A Museum Exhibit on Aluel and Her Loving Father</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div id="intro">
+    <div class="content">
+      <div class="institution">Gallery of Oral Traditions</div>
+      <div class="divider"></div>
+      <h1>What Rescue Costs</h1>
+      <div class="subtitle">
+        Five artifacts from the tale of <em>Aluel and Her Loving Father</em>,
+        a Dinka folktale of South Sudan. Every rescue in this story is a tragedy — and every gift, a debt.
+      </div>
+      <button id="enter-btn"><span>Enter the Gallery</span></button>
+    </div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <div id="gallery-ui">
+    <div class="title-block">
+      <div class="inst">Gallery of Oral Traditions</div>
+      <div class="title">What Rescue Costs</div>
+    </div>
+    <div class="hint">
+      <span class="hint-dot"></span>
+      Click a pedestal to view
+    </div>
+  </div>
+
+  <div id="info-buttons">
+    <button class="info-btn" id="curator-btn">Curator's Statement</button>
+    <button class="info-btn" id="cite-btn">Works Cited</button>
+  </div>
+
+  <div id="nav">
+    <button class="nav-dot" data-idx="0">I</button>
+    <button class="nav-dot" data-idx="1">II</button>
+    <button class="nav-dot" data-idx="2">III</button>
+    <button class="nav-dot" data-idx="3">IV</button>
+    <button class="nav-dot" data-idx="4">V</button>
+  </div>
+
+  <button id="back-btn">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <path d="M7.5 2L3.5 6L7.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Back to Gallery
+  </button>
+
+  <aside id="panel">
+    <button id="close-panel" aria-label="Close">
+      <svg viewBox="0 0 14 14" fill="none"><path d="M1 1L13 13M13 1L1 13" stroke="currentColor" stroke-width="1.4"/></svg>
+    </button>
+    <div class="catalog-number" id="p-num"></div>
+    <div class="artifact-type" id="p-type"></div>
+    <h2 id="p-title"></h2>
+    <div class="medium" id="p-medium"></div>
+    <div class="desc" id="p-desc"></div>
+    <div class="interp-label">What it means</div>
+    <div class="interp" id="p-interp"></div>
+  </aside>
+
+  <div class="modal" id="cite-modal">
+    <div class="inner">
+      <button class="close">Close</button>
+      <div class="section-label">Bibliography</div>
+      <h3>Works Cited</h3>
+      <p class="citation">
+        Deng, Francis Mading. "Aluel and Her Loving Father."
+        <em>Dinka Folktales: African Stories from the Sudan</em>, Africana
+        Publishing Company, 1974, pp. 21–28. <em>Internet Archive</em>,
+        archive.org/details/dinkafolktalesaf0000deng. Accessed 23 Apr. 2026.
+      </p>
+      <p class="citation">
+        Deng, Francis Mading. <em>The Dinka of the Sudan</em>. Holt, Rinehart
+        and Winston, 1972. <em>Internet Archive</em>,
+        archive.org/details/dinkaofsudan00fran. Accessed 20 Apr. 2026.
+      </p>
+      <p class="citation">
+        Zalka, Csenge Virág. "Bedtime Lions (Following Folktales Around the
+        World 102 — Sudan)." <em>The Multicolored Diary</em>, 11 Mar. 2019,
+        multicoloreddiary.blogspot.com/2019/03/bedtime-lions-following-folktales.html.
+        Accessed 20 Apr. 2026.
+      </p>
+    </div>
+  </div>
+
+  <div class="modal" id="curator-modal">
+    <div class="inner">
+      <button class="close">Close</button>
+      <div class="section-label">Curator's Statement</div>
+      <h3>Every single rescue in this story is financed by a life or a debt.</h3>
+      <p>
+        <em>Aluel and Her Loving Father</em> is usually read as a folktale
+        about an orphan delivered from a cruel stepmother by divine
+        intervention. The tale is found summarized in many areas, but the true
+        narrative is much more depraved than those summaries let on. The Sun saves
+        Aluel but demands a brown cow-calf from her bride-wealth on pain of
+        curse; Chol regains his daughter and kills his own wife; Ring wins his
+        bride and kills his own mother for her hide, then kills his own father;
+        the Sun's own wives lose the child they raised.
+      </p>
+      <p>
+        Even the happy ending is taxed — Aluel bears many children, but she
+        "constantly cries" from the day her mother-in-law was slaughtered for
+        her. The five artifacts in this exhibit refuse to soften that pattern.
+        They render visible what the tale refuses to hide: in this world,
+        rescue isn't gentle, and deliverance often has a painful price.
+      </p>
+      <p>
+        The tale's own theology holds together what modern retellings pull
+        apart. Fate acts in terrible ways. God wills in ways unknown. Debts
+        bind and compound. Violence purchases what love cannot.
+      </p>
+    </div>
+  </div>
+
+  <div id="credits">Curated by Strong Cook · Spring 2026</div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
