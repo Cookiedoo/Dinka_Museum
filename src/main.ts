@@ -32,7 +32,10 @@ const ARTIFACTS: Artifact[] = [
     num: "ACC. 01 · i of V",
     type: "Symbolic Object · i of ii",
     title: "The Man in the Sun",
-    model: { kind: "framed-image", src: "/models/man-in-sun.png" },
+    model: {
+      kind: "framed-image",
+      src: `${import.meta.env.BASE_URL}man-in-sun.png`,
+    },
     medium:
       "Ochre wall-painting fragment, depicting a figure beside the setting sun",
     desc: `The stepmother points to the setting sun and tells the child, <span class="quote">"You see that man near the sun? It is your father."</span> It is a lie meant to kill her — the stepmother thinks no child can catch the sun. But when Aluel reaches the river, the Sun genuinely is there, and he really does pull her from the burning water. The lie becomes an ironically beautiful prophecy. The artifact freezes the moment deception and deliverance became the same event.`,
@@ -44,7 +47,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Gourd of Watered Milk",
     model: {
       kind: "glb",
-      src: "/models/leather_water_pot_wgxobbm_raw.glb",
+      src: `${import.meta.env.BASE_URL}models/WaterPot.glb`,
       scale: 1.0,
       yOffset: 0,
     },
@@ -58,7 +61,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Tether-Peg of the Brown Cow-Calf",
     model: {
       kind: "glb",
-      src: "/models/rusty_stake_tkqmdbnhw_raw.glb",
+      src: `${import.meta.env.BASE_URL}models/Stake.glb`,
       scale: 1.0,
       yOffset: 0,
     },
@@ -72,7 +75,7 @@ const ARTIFACTS: Artifact[] = [
     title: "Ring's Spear",
     model: {
       kind: "glb",
-      src: "/models/Spear.glb",
+      src: `${import.meta.env.BASE_URL}models/Spear.glb`,
       scale: 2.0,
       yOffset: 0.1,
       xOffset: 0.0,
@@ -89,7 +92,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Pale Shield",
     model: {
       kind: "glb",
-      src: "/models/parametric_bulls_head_trophy.glb",
+      src: `${import.meta.env.BASE_URL}models/BullSheild.glb`,
       scale: 1.0,
       yOffset: 0,
     },
