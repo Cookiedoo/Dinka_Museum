@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 // =====================================================================
@@ -434,7 +435,10 @@ scene.add(dustParticles);
 // =====================================================================
 // ARTIFACT LOADERS
 // =====================================================================
+const dracoLoader = new DRACOLoader();
+dracoLoader.setDecoderPath("https://www.gstatic.com/draco/versioned/decoders/1.5.6/");
 const gltfLoader = new GLTFLoader();
+gltfLoader.setDRACOLoader(dracoLoader);
 const texLoader = new THREE.TextureLoader();
 
 function swapPlaceholder(
