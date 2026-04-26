@@ -25,51 +25,23 @@ interface Artifact {
   model: ModelConfig;
 }
 
-// =====================================================================
-// ARTIFACT DATA
-// =====================================================================
 const ARTIFACTS: Artifact[] = [
+  // === Pedestal 0 (leftmost) — V ===
   {
-    num: "ACC. 01 · i of V",
-    type: "Symbolic Object · i of ii",
-    title: "The Man in the Sun",
-    model: {
-      kind: "framed-image",
-      src: `${import.meta.env.BASE_URL}man-in-sun.png`,
-    },
-    medium:
-      "Ochre wall-painting fragment, depicting a figure beside the setting sun",
-    desc: `The stepmother points to the setting sun and tells the child, <span class="quote">"You see that man near the sun? It is your father."</span> It is a lie meant to kill her — the stepmother thinks no child can catch the sun. But when Aluel reaches the river, the Sun genuinely is there, and he really does pull her from the burning water. The lie becomes an ironically beautiful prophecy. The artifact freezes the moment deception and deliverance became the same event.`,
-    interp: `This is the exhibit's first statement about what "rescue" means in the tale. The stepmother's cruelty sets the plot into motion, and the Sun uses that cruelty without excusing it. Providence does not annul wickedness here; it overrules it. The theological weight is closer to Genesis 50:20 than to any sentimental rescue narrative, and the Dinka tale preserves the tension Joseph's story preserves: the harm was real, the deliverance is real, and the two do not cancel. But the one above the wickedness is always in the least of expected places.`,
-  },
-  {
-    num: "ACC. 02 · ii of V",
-    type: "Symbolic Object · ii of ii",
-    title: "The Gourd of Watered Milk",
+    num: "ACC. 05 · v of V",
+    type: "Cultural Context Artifact",
+    title: "The Bull Sheild",
     model: {
       kind: "glb",
-      src: `${import.meta.env.BASE_URL}models/WaterPot.glb`,
+      src: `${import.meta.env.BASE_URL}models/BullSheild.glb`,
       scale: 1.0,
       yOffset: 0,
     },
-    medium: "Dinka leather pot gourd",
-    desc: `The stepmother pours water into Aluel's milk gourd before she pours the milk, so the milk floats thin on top while the child drinks water disguised as food. When Aluel discovers the trick, she never accuses, she continues to respect the stepmother, and she spills the gourd in secret. When her father asks if she is hungry, she swears, <span class="quote">"May I die, by God, Father, I have eaten."</span> The gourd is the quietest weapon in the story: a vessel of sustenance made into a vessel of deception, carried every day by a child who would rather lie and face eternal consequences than grieve her father.`,
-    interp: `Cruelty in this tale is not spectacular. It is domestic, stratified, and hidden inside objects of care. Aluel's decision to conceal her suffering is itself part of the story's moral narrative: protection works in both directions, and sometimes the fatherless must protect the father. This makes Chol's later breakdown more severe, not less, because his grief was revealed in a gourd of lies.`,
+    medium: "A hide shield marked with the head of a young bull",
+    desc: `The day before the duel, Ring's father slaughters a bull and fashions a shield from its hide. Afterwards, he instructs Ring to fashion his own shield, but as a son he owns no cattle… His mother offers herself as a sacrifice for the shield. To which reluctant Ring eventually does. Killing his own mother for his bride to be. Ring's father then states, <span class="quote">"the one who will kill the other will take the girl for his wife."</span>`,
+    interp: `This horrifying display is the cultural transaction of the Dinka culture. Dinka marriage is transacted in cattle. And cattle are controlled by the head of the household, so a son with no cattle has no possessions, and has no wife. The bull-hide shield represents the natural progression of the maturity of the Dinka culture, the tool used to "gain" wealth (often by duels). The (human) skin shield is the rupture: a household's economy collapsing under the weight of what one man desired and another was forced to supply. Aluel "constantly cries" from that day forward. The artifact is a depressing demonstration of this divide`,
   },
-  {
-    num: "ACC. 03 · iii of V",
-    type: "Document Artifact",
-    title: "The Tether-Peg of the Brown Cow-Calf",
-    model: {
-      kind: "glb",
-      src: `${import.meta.env.BASE_URL}models/Stake.glb`,
-      scale: 1.0,
-      yOffset: 0,
-    },
-    medium: "A hardwood tether stake, annotated with the Sun's verbal contract",
-    desc: `Before the Sun returns Aluel to her father, he names his price: <span class="quote">"take a brown cow-calf and tether her to a stake very early in the morning. I will pick up the cow-calf on my way to the West."</span> By saving Aluel, the Sun establishes a sort of kinship with her family, but that kinship entitles him to a share of her bride-wealth. If the debt goes unpaid, a curse would fall on Aluel even if the Sun did not will it. The stake is small. The stakes are colossal.`,
-    interp: `This artifact is the exhibit's most direct claim that deliverance is not free. The Dinka world does not separate rescue from relationship, or relationship from obligation — help received creates a tether that cannot be ignored. The parallel in Christian tradition is the <em>goel</em>, the kinsman-redeemer, whose rescue creates a permanent claim. But the tale is not softer than scripture: it insists that even a benevolent debt, if left unpaid, becomes a curse that acts on its own, regardless of the giver's will. The peg makes the invisible contract physical.`,
-  },
+  // === Pedestal 1 — IV ===
   {
     num: "ACC. 04 · iv of V",
     type: "Character Artifact",
@@ -87,25 +59,52 @@ const ARTIFACTS: Artifact[] = [
     desc: `In a vision Ring comes to the revelation of Aluel's return. When he brings her home, his own father demands her for himself and forces Ring and the father to fight. They throw spears at each other for three very long, grueling days. Ring's twin brothers call out to the two; one begging his father to miss, the other begging Ring to miss. Until the third day, when one of the brothers loses patience and shouts, <span class="quote">"Ring, hit our father!"</span> And he does. And through his heart, comes the notched spear.`,
     interp: `Ring is the character the tale most refuses to simplify. He is "very holy." He saw his wife in a vision before he ever even met her. And to keep her, he skins his own mother (yes, literally kills and destroys his mother), and then kills his own father with the spear. The story does not condemn him, but neither does it celebrate him. It merely records him. The spear embodies the exhibit's thesis in its most difficult form: when deliverance passes through a human hand, that hand is marked. Ring's holiness and his violence occupy the same body, and the tale does not resolve them.`,
   },
+  // === Pedestal 2 — III ===
   {
-    num: "ACC. 05 · v of V",
-    type: "Cultural Context Artifact",
-    title: "The Pale Shield",
+    num: "ACC. 03 · iii of V",
+    type: "Document Artifact",
+    title: "The Stake of the Calf",
     model: {
       kind: "glb",
-      src: `${import.meta.env.BASE_URL}models/BullSheild.glb`,
+      src: `${import.meta.env.BASE_URL}models/Stake.glb`,
       scale: 1.0,
       yOffset: 0,
     },
-    medium: "Bull-head and hide shield",
-    desc: `On the eve of the duel, Ring's father kills his own bull and makes a shield from its hide. He tells Ring that Ring must find his own shield — but Ring has no independent cattle. The companion shield is pale, abstract, and unlike its partner. The tale's own words are what the visitor reads here; the image does not re-enact them. <span class="quote">"The one who will kill the other will take the girl for his wife."</span>`,
-    interp: `This is the cultural context the tale demands but does not explain. Dinka marriage is transacted in cattle; cattle are controlled by the head of the household; a son with no cattle has no wife. The bull-hide shield is the normal order of things — wealth used to claim what wealth entitles. The pale shield is the rupture: a household's economy collapsing under the weight of what one man desired and another was forced to supply. Aluel "constantly cries" from that day forward. The artifact does not ask you to forgive this. It asks you to see it.`,
+    medium: "A hardwood tether stake, annotated with the Sun's verbal contract",
+    desc: `Before the Sun returns Aluel to her father, he names his price: <span class="quote">"take a brown cow-calf and tether her to a stake very early in the morning. I will pick up the cow-calf on my way to the West."</span> By saving Aluel, the Sun establishes a sort of kinship with her family, but that kinship entitles him to a share of her bride-wealth. If the debt goes unpaid, a curse would fall on Aluel even if the Sun did not will it. The stake is small. The stakes are colossal.`,
+    interp: `This artifact is the exhibit's most direct claim that deliverance is not free. The Dinka world does not separate rescue from relationship, or relationship from obligation — help received creates a tether that cannot be ignored. The parallel in Christian tradition is the <em>goel</em>, the kinsman-redeemer, whose rescue creates a permanent claim. But the tale is not softer than scripture: it insists that even a benevolent debt, if left unpaid, becomes a curse that acts on its own, regardless of the giver's will. The peg makes the invisible contract physical.`,
+  },
+  // === Pedestal 3 — II ===
+  {
+    num: "ACC. 02 · ii of V",
+    type: "Symbolic Object",
+    title: "The Gourd of Watered Milk",
+    model: {
+      kind: "glb",
+      src: `${import.meta.env.BASE_URL}models/WaterPot.glb`,
+      scale: 1.0,
+      yOffset: 0,
+    },
+    medium: "Dinka leather gourd",
+    desc: `The stepmother pours water into Aluel's milk gourd before she pours the milk, so the milk floats thin on top while the child drinks water disguised as food. When Aluel discovers the trick, she never accuses the stepmother, she continues to respect her, and she spills the gourd in secret. When her father asks if she is hungry, she swears, <span class="quote">"May I die, by God, Father, I have eaten."</span> The gourd is the quietest weapon in the story: a vessel of sustenance made into a vessel of deception, carried every day by a child who would rather lie and face eternal consequences than grieve her father.`,
+    interp: `Cruelty in this tale is not spectacular. It is domestic, stratified, and hidden inside objects of care. Aluel's decision to conceal her suffering is itself part of the story's moral narrative: protection works in both directions, and sometimes the fatherless must protect the father. This makes Chol's later breakdown more severe, not less, because his grief was revealed in a gourd of lies.`,
+  },
+  // === Pedestal 4 (rightmost) — I ===
+  {
+    num: "ACC. 01 · i of V",
+    type: "Symbolic Portrait",
+    title: "The Man in the Sun",
+    model: {
+      kind: "framed-image",
+      src: `${import.meta.env.BASE_URL}man-in-sun.png`,
+    },
+    medium:
+      "Ochre wall-painting fragment, depicting a figure beside the setting sun",
+    desc: `The stepmother points to the setting sun and tells the child, <span class="quote">"You see that man near the sun? It is your father."</span> It is a lie meant to kill her — the stepmother thinks no child can catch the sun. But when Aluel reaches the river, the Sun genuinely is there, and he really does pull her from the burning water. The lie becomes an ironically beautiful prophecy. The artifact freezes the moment deception and deliverance became the same event.`,
+    interp: `This is the exhibit's first statement about what "rescue" means in the tale. The stepmother's cruelty sets the plot into motion, and the Sun uses that cruelty without excusing it. Providence does not annul wickedness here; it overrules it. The theological weight is closer to Genesis 50:20 than to any sentimental rescue narrative, and the Dinka tale preserves the tension Joseph's story preserves: the harm was real, the deliverance is real, and the two do not cancel. But the one above the wickedness is always in the least of expected places.`,
   },
 ];
 
-// =====================================================================
-// SCENE
-// =====================================================================
 const canvas = document.getElementById("canvas") as HTMLCanvasElement;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xb8c4d4);
@@ -126,9 +125,6 @@ renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 0.32;
 
-// =====================================================================
-// LIGHTING
-// =====================================================================
 const ambient = new THREE.AmbientLight(0xfff0d8, 0.35);
 scene.add(ambient);
 
@@ -153,9 +149,6 @@ scene.add(rim);
 const hemi = new THREE.HemisphereLight(0xc8d4ec, 0xb8a888, 0.5);
 scene.add(hemi);
 
-// =====================================================================
-// FLOOR
-// =====================================================================
 const floorMat = new THREE.MeshStandardMaterial({
   color: 0xdcd4be,
   roughness: 0.5,
@@ -203,9 +196,6 @@ addFloorCrack([
   new THREE.Vector3(5, 0, -3),
 ]);
 
-// =====================================================================
-// RUINS
-// =====================================================================
 const stoneMat = new THREE.MeshStandardMaterial({
   color: 0xd8d0bc,
   roughness: 0.95,
@@ -436,7 +426,9 @@ scene.add(dustParticles);
 // ARTIFACT LOADERS
 // =====================================================================
 const dracoLoader = new DRACOLoader();
-dracoLoader.setDecoderPath("https://www.gstatic.com/draco/versioned/decoders/1.5.6/");
+dracoLoader.setDecoderPath(
+  "https://www.gstatic.com/draco/versioned/decoders/1.5.6/",
+);
 const gltfLoader = new GLTFLoader();
 gltfLoader.setDRACOLoader(dracoLoader);
 const texLoader = new THREE.TextureLoader();
@@ -727,7 +719,7 @@ for (let i = 0; i < 5; i++) {
   pctx.font = 'italic 120px "Cormorant Garamond", serif';
   pctx.textAlign = "center";
   pctx.textBaseline = "middle";
-  const romans = ["I", "II", "III", "IV", "V"];
+  const romans = ["V", "IV", "III", "II", "I"];
   pctx.fillText(romans[i], 128, 140);
   const plaqueTex = new THREE.CanvasTexture(plaqueCanvas);
   plaqueTex.anisotropy = 8;
@@ -823,8 +815,11 @@ function zoomToArtifact(idx: number): void {
   (document.getElementById("gallery-ui") as HTMLElement).classList.add(
     "hidden",
   );
-  document.querySelectorAll(".nav-dot").forEach((d, i) => {
-    d.classList.toggle("active", i === idx);
+  document.querySelectorAll(".nav-dot").forEach((d) => {
+    d.classList.toggle(
+      "active",
+      parseInt((d as HTMLElement).dataset.idx!, 10) === idx,
+    );
   });
 }
 
